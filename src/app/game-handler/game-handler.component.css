@@ -1,0 +1,15 @@
+div {
+	float: left;
+	box-sizing: border-box;
+}
+
+.row {
+	width: 100%;
+}
+.cell {
+	width: 100px;
+	height: 100px;
+	border: solid;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

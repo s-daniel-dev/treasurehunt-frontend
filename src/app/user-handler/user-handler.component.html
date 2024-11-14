@@ -1,0 +1,7 @@
+
+<h1 align="center">LOGIN</h1>
+<form #loginform="ngForm" align="center" (submit)="loginTry(loginform)" >
+    <input type="text" name="uname" placeholder="Username" required ngModel/>
+    <input type="password" name="pwd" placeholder="Password" required ngModel/>
+    <input type="submit" />
+</form>
